@@ -1,5 +1,5 @@
 # makeplus
-Reusable Makefile for C++
+Reusable Makefile set for C++
 
 ## Usage
 	~/makeplus $ make        // Build. The executable and .o files are in the posix_out directory.
