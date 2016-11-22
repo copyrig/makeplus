@@ -17,7 +17,7 @@ DEPENDFILE     = $(OBJDIRNAME)/dependfile.tlist
 
 
 $(TARGET)     : $(OBJECTS)
-	@`[ -d $(OBJDIRNAME) ] || mkdir $(OBJDIRNAME)`
+    @`[ -d $(OBJDIRNAME) ] || mkdir $(OBJDIRNAME)`
 	$(CXX) $(MAINFLAG) $(TARGET) $(OBJECTS) $(SDEFINEFLAG) $(SLINKFLAG)
 
 dep           :
